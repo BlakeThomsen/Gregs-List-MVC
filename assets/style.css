@@ -1,0 +1,14 @@
+/* Styles */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.dropshadow {
+  text-shadow: 2px 2px black;
+}
