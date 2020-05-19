@@ -1,6 +1,5 @@
 export default class Car {
   constructor(data) {
-    console.log("from the car model");
     this.id = data._id;
     this.make = data.make;
     this.model = data.model;
