@@ -10,7 +10,6 @@ function _drawHouses() {
 
 export default class HousesController {
   constructor() {
-    console.log("Hello from controller");
     _store.subscribe("houses", _drawHouses);
   }
 

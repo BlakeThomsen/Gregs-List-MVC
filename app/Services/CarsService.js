@@ -9,7 +9,6 @@ let _api = axios.create({
 
 class CarService {
   constructor() {
-    console.log("hello from carService");
     this.getCars();
   }
 
