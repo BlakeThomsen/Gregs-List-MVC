@@ -22,8 +22,6 @@ let _listeners = {
   jobs: [],
 };
 
-//NOTE You should not need to change the code from this point down
-
 /**
  * Validates the property string is defined in both the state and the listeners
  * @param {string} prop

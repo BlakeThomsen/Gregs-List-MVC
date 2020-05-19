@@ -16,9 +16,7 @@ class JobService {
     _api
       .get()
       .then((res) => {
-        // console.log(res.data.data);
         let newJobs = res.data.data.map((jobData) => new Job(jobData));
-        // console.log(newCars)
         store.commit("jobs", newJobs);
         console.log(store.State.jobs);
       })
